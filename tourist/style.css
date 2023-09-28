@@ -7,6 +7,9 @@ html {
     margin: auto;
     padding: auto;
     font-family: 'Poppins';
+    background: url('../asset/gambar/coverpage5.png');
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -55,91 +58,185 @@ html {
     color: #000;
 }
 
-.profile-content {
-    position: relative;
-    width: auto;
-    height: 100vh;
-    background: url('../asset/gambar/fotoprofil.png');
-    background-repeat: no-repeat;
-    background-size: 650px;
-    background-position: right;
-    display: flex;
-    align-items: center;
-    padding-top: 5%;
-    padding-left: 30px;
-    padding-right: 0px;
-    padding-bottom: 10px;
+.cover {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 500px;
 }
 
-.content-cover {
-    max-width: 700px;
-    line-height: 25px;
-    padding-left: 10%;
-    color: #000000;
+.cover h1 {
+    font-size: 90px;
 }
 
-.content-cover h2 {
-    font-size: 40px;
+.cover h3 {
+    font-size: 30px;
+    margin-top: -40px;
 }
 
-.content-cover h2 span {
-    opacity: 50%;
-}
-
-.content-cover h3 {
-    font-size: 32px;
-}
-
-.content-cover p {
-    padding: 10px 0 40px 0;
-}
-
-.button a {
-    color: white;
+.cover a {
+    margin-top: -20px;
+    border: 1px solid #20222C;
     text-decoration: none;
-    padding: 10px 40px;
-    background-color: #000000;
-    border-radius: 20px;
-    border: 1px solid black;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.pendidikan {
-    padding: 50px;
-    margin-top: -170px;
-    text-align: center;
-    background-color: #20222C;
     color: #ffffff;
-    z-index: 1000;
+    padding: 15px 50px;
+    background-color: #20222C;
+    border-radius: 30px;
 }
 
-.pendidikan .konten-pendidikan-1 img {
-    width: 100px;
-}
-
-.pendidikan .konten-pendidikan-2 img {
-    width: 200px;
-}
-
-
-.skill {
+.judul-konten h3 {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size: 30px;
 }
 
-.skill .jenis-tools img {
-    width: 50px;
-    margin: 20px;
+.gambar-candi-1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: auto;
+    float: left;
 }
 
-.skill .figma-tools img {
-    width: 140px;
+.candi-1 {
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+.candi-1 h4 {
+    font-size: 20px;
+}
+
+.candi-1 p {
+    text-align: justify;
+}
+
+.gambar-candi-2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: auto;
+    float: left;
+}
+
+.candi-2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.candi-2 h4 {
+    font-size: 20px;
+}
+
+.candi-2 p {
+    text-align: justify;
+}
+
+.konten-rekreasi h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.gambar-rekreasi-1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: auto;
+    float: right;
+}
+
+.rekreasi-1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.rekreasi-1 h4 {
+    font-size: 20px;
+}
+
+.rekreasi-1 p {
+    text-align: justify;
+}
+
+.gambar-rekreasi-2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: auto;
+    float: right;
+}
+
+.rekreasi-2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.rekreasi-2 h4 {
+    font-size: 20px;
+}
+
+.rekreasi-2 p {
+    text-align: justify;
+}
+
+.gambar-rekreasi-3 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: auto;
+    float: right;
+}
+
+.rekreasi-3 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.rekreasi-3 h4 {
+    font-size: 20px;
+}
+
+.rekreasi-3 p {
+    text-align: justify;
+}
+
+.gambar-rekreasi-4 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: auto;
+    float: right;
+}
+
+.rekreasi-4 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.rekreasi-4 h4 {
+    font-size: 20px;
+}
+
+.rekreasi-4 p {
+    text-align: justify;
+}
+
 
 footer {
     background: #20222C;
+    margin-top: 75%;
     padding: 10px 0;
 }
 
